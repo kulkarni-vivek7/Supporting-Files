@@ -20,7 +20,7 @@ public class OpenAPIConfiguration {
 
         Contact myContact = new Contact();
         myContact.setName("Vivek");
-        myContact.setEmail("vivek.k@sakhaglobal.com");
+        myContact.setEmail("your_email");
 
         Info information = new Info()
                 .title("Employee Management System API")
