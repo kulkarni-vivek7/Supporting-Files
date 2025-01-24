@@ -14,7 +14,7 @@ import java.util.Map;
 @Component
 public class JwtUtil {
 
-    private final String SECRET_KEY = "gdhhhskhbhkvvdhsvks647467kdkvbhvbnxkshdjbfuyertrdkvkc";
+    private final String SECRET_KEY = "your_secret_key"; // it should be long enough
     private final SecretKey key = Keys.hmacShaKeyFor(SECRET_KEY.getBytes());
     private final JwtParser jwtParser = Jwts.parserBuilder().setSigningKey(key).build();
 
